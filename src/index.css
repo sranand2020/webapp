@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body,
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.1em;
+}
+
+.app-primary-color {
+  color: #79589f;
+}
+
+nav,
+.app-primary-background-color {
+  background-color: #79589f;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.border-bottom-1 {
+  border: 1px solid lightgray;
+}
+
+.card-subtitle {
+  margin-top: 1rem;
+}
+
+/* Make sure these are specific enough and use !important to override Bootstrap */
+.navbar .navbar-nav .nav-link {
+  color: white !important; /* Default color */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.navbar .navbar-nav {
+  color: #f0f0f0 !important; /* Hover color */
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+/* Apply color to the navbar toggler button */
+.navbar-toggler {
+  color: green !important;
+  border-color: green !important;
+}
+
+/* Change color of navbar toggler button when hovered */
+.navbar-toggler:hover {
+  color: red !important; /* Lighter color on hover */
+  border-color: red !important; /* Lighter border color */
+}

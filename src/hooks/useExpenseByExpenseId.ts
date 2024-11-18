@@ -19,7 +19,7 @@ const useExpenseByExpenseId = (expenseId: string) => {
     }
   }, []);
 
-  return { expense, errors, isLoading };
+  return { expense, errors, isLoading, setErrors, setLoader };
 };
 
 export default useExpenseByExpenseId;
